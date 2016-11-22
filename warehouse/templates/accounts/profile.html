@@ -36,10 +36,12 @@
     </div>
 
     <div class="left-layout__main">
-     <center><form method="POST" action="{{ request.current_route_path() }}" name="submit" enctype="multipart/form-data">
-      <input type="file" name="fileField"><br /><br />
-		    <input type="submit" name="submit" value="Submit">
-	    </form></center>
+     <center>
+	     <h2>Upload Project</h2>
+	     <form method="POST" action="/upload/package" name="submit" enctype="multipart/form-data">
+      		<input type="file" name="fileField"><br /><br />
+		<input type="submit" name="submit" value="Submit">
+	     </form></center>
       <h2>Projects</h2>
       <div class="package-list">
         {% for release in projects %}
