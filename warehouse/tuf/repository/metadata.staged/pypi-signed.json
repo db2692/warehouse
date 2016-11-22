@@ -1,0 +1,127 @@
+{
+ "signatures": [
+  {
+   "keyid": "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447",
+   "method": "RSASSA-PSS",
+   "sig": "45b9429af2b4200093a3fe4d7cf976fe548c0fb5f3c940e2aa0df52b6e89d1dbd3ed25605bae0d443c5a2318413f4ac2dc0fc9a4e90634a1d587504fa879f206d1ede1a7a2ecae03742d78e34d79380543c52df6d32eb7012dc19f578ecec163aae51d991cf7528ca998ca4fc61119bd691d45e940d0f492d5209afdb593ece4c4641ed41a58a67873581a1972158333cfd940f16fbb0ace3db3fc5d908cd1214026056715bb0f3bbc8a319bd909013da12dc9abf54d3cc865d4255dbe6a3e4d9b2682d23cdd402f50e54c7f3f9cb6d715fcac17ac7fe9256eec225b828c998c60ead00b76c3c9814965301732f9921cca00b566250b5d42d67b05a52280cebd"
+  }
+ ],
+ "signed": {
+  "_type": "Targets",
+  "delegations": {
+   "keys": {
+    "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxCy3w1xsQLl420vQDVI3\nSmYtGXFclVbxbIWt9LthKO6JQzsOEQHEr5pURGea8oC1vz2TRMIt0K1Jmr8+WDjb\nowsvdEjPDjfTGc+1QzZyjsNny40n9BSE13mdG3QMRzoz1yUJlNLBol8hDUh7jAJl\nM43ar3LXnhDBNur2PG6Y8DKNrD6i7uM/boL+DVyu+VGem0lRMZ6cpm5nOmyd/7+j\nlXVpAoVr5W11lSaF+ZYryI/pg586tgs6rxM7vf5sejwK5ER0WVLz02L+VY6nh/o6\nh6ByWGmmqDKuz4zt7FZ5MwkLvADwuPcad7vih5yzE/zqIYNreepb2KvVFL3roXCS\nlQIDAQAB\n-----END PUBLIC KEY-----"
+     }
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "0-1",
+     "path_hash_prefixes": [
+      "0",
+      "1"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "2-3",
+     "path_hash_prefixes": [
+      "2",
+      "3"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "4-5",
+     "path_hash_prefixes": [
+      "4",
+      "5"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "6-7",
+     "path_hash_prefixes": [
+      "6",
+      "7"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "8-9",
+     "path_hash_prefixes": [
+      "8",
+      "9"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "a-b",
+     "path_hash_prefixes": [
+      "a",
+      "b"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "c-d",
+     "path_hash_prefixes": [
+      "c",
+      "d"
+     ],
+     "terminating": false,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "dc1d905d89b6c49fc39561cf473fb106e4c5bdaae9f482312c0ef560e9c6e447"
+     ],
+     "name": "e-f",
+     "path_hash_prefixes": [
+      "e",
+      "f"
+     ],
+     "terminating": false,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2017-02-21T10:48:38Z",
+  "targets": {},
+  "version": 3
+ }
+}
