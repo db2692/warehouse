@@ -182,3 +182,8 @@ def includeme(config):
         "/rss/packages.xml",
         domain=warehouse,
     )
+    
+    
+    ## TUF INTEGRATION
+    # Form Upload
+    config.add_route("package.upload", "/upload/package/", domain=warehouse)

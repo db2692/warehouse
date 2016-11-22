@@ -35,6 +35,13 @@ from warehouse.packaging.models import (
 from warehouse.utils.row_counter import RowCount
 from warehouse.utils.paginate import ElasticsearchPage, paginate_url_factory
 
+from warehouse.forklift.legacy import file_upload
+
+
+import os
+import uuid
+import shutil
+
 
 SEARCH_FIELDS = [
     "author", "author_email", "description", "download_url", "home_page",
@@ -285,3 +292,27 @@ def health(request):
     # Nothing will actually check this, but it's a little nicer to have
     # something to return besides an empty body.
     return "OK"
+
+
+@view_config(
+    route_name="package.upload", renderer="string"
+)
+def package_upload(request):
+    #filename = request.POST['fileField'].filename
+    filename = ""
+    #for key in list(request.POST.get("fileupload")):
+    #    filename += key
+
+    input_file = request.body_file
+    file_path = os.path.join('/tmp', 'abcd')
+
+    temp_file_path = file_path + '~'
+    bb = 0
+
+    input_file.seek(0)
+    with open(temp_file_path, 'wb') as output_file:
+        bb += 1
+        shutil.copyfileobj(input_file, output_file)
+
+    os.rename(temp_file_path, file_path)
+    return "Success" + file_path + str(bb)
