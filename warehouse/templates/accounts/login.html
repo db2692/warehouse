@@ -19,7 +19,8 @@
 
 {% block content %}
   {{ macros.legacy_pypi_message("login_form") }}
-  <form method="POST" action="{{ request.current_route_path() }}" class="hidden">
+<center>
+  <form method="POST" action="{{ request.current_route_path() }}">
     <input name="csrf_token" type="hidden" value="{{ request.session.get_csrf_token() }}">
 
     {% if redirect.data %}
@@ -37,4 +38,5 @@
     {% include "warehouse:templates/includes/input-credentials.html" %}
     <input type="submit" value="Login">
   </form>
+</center>
 {% endblock %}
