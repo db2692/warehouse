@@ -363,6 +363,12 @@ def configure(settings=None):
 
     # Enable Warehouse to serve our locale files
     config.add_static_view("locales", "warehouse:locales/")
+    
+
+    ## TUF INTEGRATION
+    # Serve repository metadata
+    config.add_static_view("repository", "warehouse:tuf/repository/")
+
 
     # Enable support of passing certain values like remote host, client
     # address, and protocol support in from an outer proxy to the application.
