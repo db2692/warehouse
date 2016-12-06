@@ -1,9 +1,9 @@
 {
  "signatures": [
   {
-   "keyid": "fd87389ed8dd5907fcb721eefd6e0f7cecde42632091d7b8aaf2298b93fad4a9",
+   "keyid": "70655b5073e3990bfd1fbee5d0804e3ceb53bf9a3db8c86ba8a7d48ec95ab553",
    "method": "RSASSA-PSS",
-   "sig": "6195ea38f58107e2a1eb83c495935e3c1b2071158af0d18df4740da0cdae30a05f0aacff39618355050ec4c8f0fb5dfe95913dea3ebf108dfbaa2c8db1eee50d752aa013ad2f8b67945c1b042b4c35b8936d2086eb2ff06e4a93dc51633ee25ca9bf4db412dad9999e500ad51807310ddb4d230f2adb7f9dbc06e66303f987c3d16ba0800c2a633519605bed736f5cb5c69f746e6a92f51b4bd7e425b199dd0d7d2d9022122432eca55145a548c45b34b77fc96a596fb0701be86000ee5ab34efbbb32248ef9ec62f10d1d07da60bdefe38b42d876b446be5c5ea67a0d76ab8c01051f9df0d97a871ff360a0570badf665fe46500bb63f51f867810b41df6a4a"
+   "sig": "548e5e96aad2c768e3cbc1d9eeca86842cc67a95237369cc771fc92a9737fc0353fff0583d2d3b0aa1f6e554b0d89cb36285e03fc061a501f1e9c98643f6f22bbec8e097990c894b235248dca2c27f3f1a02036a542aaed664fc1d962faf82b87f1d618d847278e938b906994ef90edf68dd98682e59994206edb432b005c25cbe8632f7774617642bdca50edff1e8b16316f528f994fa13601ed2f10b456dd5458ad6ef21ce26ca10c345d195de6b00c9ffc3ea92b6143d1dbc12a1eee005c6098c962fd57d6e538d460bed40f614a8eb1ad6413d97bf8ac5d4c4792edc2711051f2c8e539a1435e8a9387906bf85cbbf129764aef2bd148f7ea89a28076ba6"
   }
  ],
  "signed": {
@@ -12,71 +12,71 @@
    "gz"
   ],
   "consistent_snapshot": false,
-  "expires": "2017-11-22T09:09:47Z",
+  "expires": "2017-11-30T02:44:00Z",
   "keys": {
-   "5925212db59b261636a9196e1bf5cb5050fab2f722caa3f0c7384eacaebd9c4a": {
+   "3913729a488ff643aec6a5ce0740bdb81dd62ae5ed7c23238a408be8827c65af": {
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
     ],
     "keytype": "rsa",
     "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA2cTSUArW/BTpi4j+oE9j\n6A2Xp3hnPVV1cH1lwnP1ttj5+yOZfJ8w4kYq5MLLn+iRQnl3nBaPeX9tn9y2Xa41\n77UT6P7/yp7ASqN2i4GU1xa3/6UCNqWFTSM6IGKRE9japvtD/l4UNNPZj8e6s/mI\nn/NmQN9F0RdiMsZUSy3wEdXEsNorcGmG0py6Igutll81QvxoUzAhyjVqtJHQmKZJ\ntBfeGsZ9tnQvX9f9Xb71Upd+ia9ZKYPHSqcWCRbaKNhMuhHB69LQtIiytHmM7iRv\nXfGdQK1oUmhnHqy6xZZA0a5W4ry/l0YC7mGgVXpZmoNrtKmQZ9KpkTocWvdhR4p/\npHoE+yDoIrJaRU8arWEje2Ex9JouhTh58L7ir+R326vmtlonBhQLBSGgk9YGhfHU\n+Lttn6vZzQ5oApZI8ak0uIro0W5ZD5ehV+0IjiISb/YSH+6sp9sVRAa6zBSTrqa0\nHyj9AMpKoDpednH77QPf6qwpY7Jr7aWWi+ZD+7j+WtNTAgMBAAE=\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA3DAu0Z7dCN+okEahKjWW\nivQUjJQ98zyZZkP5utbklDNQN2hQVOPQ8dWdnXmW9wgtDn+PR3H3IY3gE97Fl/eR\ndwqiZUWVj/CeMUlTbWKinIrLlr+FjrEJsRirKQCvkQVXBRI9ytCWni/LZuMGIHn9\nzrLUc/9XhbGc/IVUxzrF5QAJEXarrQbnC5R88d4+LzEoBiS1A/VwOMTwH7NnGgZa\nd4p8e3hDwHo0s0MUlAN33ssHEk7qZX/Av0PZRQKbhWYU2aNhfO47uQ4YP13P9QgR\n1OImVycV/fodCp1sfHy+BcU57ye+yIijDT+VtyXydJaQaYnWSksDm04xVtNKm5p4\ncb9ScUZncor/COacOh3hY8Bf/e+5zCze5yxh5XaEPIfM+Dv93lSvrvkKtAJeIk9b\n1P4Q7dRKzVtgyCDFOQEkGI6nXKZBQhgb1S/U6cHgYyjIf+BAvDez0mseqnBID3Sy\nPp8xbRlLW3enjGzm5EprQDPzzLux6VbygZ9cKkcbw1D3AgMBAAE=\n-----END PUBLIC KEY-----"
     }
    },
-   "9c26d9728e49c4b050f6e4b54a099a60f7b36ae4cb1131e226c985e3f30533ba": {
+   "70655b5073e3990bfd1fbee5d0804e3ceb53bf9a3db8c86ba8a7d48ec95ab553": {
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
     ],
     "keytype": "rsa",
     "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA0AKakUjrENCLEjWduA/o\niOGOaNJM6IU5j9lLQEIjSVzPdVonq7JdyeVAzeSBbGjUAiQQfB82yDFO5er3JEOx\n6wozMHan1AJ9xgrwxwHt87RgnOgdkcaQl9izXgOzdfp3MacTTyGDCQ5QNq3oy3Q9\n75N574cJV1+41tJm2cqXs4Jlmf77I6oEnembRctXjsemnB0FjOkDA3fZmBSl4f3Y\nM+pNaF/5PpU7TFY5Pw+rnXXBd0jLpBtruOkExVODCKnOJYzUJaxBdQsh8ZC5le6f\nWh3Ft49BWOAuchU+OLaKExVAuely/Kt45pkEYR2QU8nWQDsKV305lsijHA+tnqVm\nnu7LnbHWQx6CphByolZG9dzcf7PnXOp3IQAXNcFDdt7FJuYJ5n2ZyoU0Gs2beQ7E\nS/Zei9xG5Nv36b63nKe1DfDLAQ2gDElpYFieWR5kst0YkQeUzakM05hsVzWJAA1T\ncvCboGwmGNYEylsLQOqyMBQI/de4TT8Qik3bdDggxKwBAgMBAAE=\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtBSN5GZKEnT0nuczN9By\ngtfNUsTNdxV+HsWUq1vmLSCWn6PrRCBui9DXYgEnS3B7qFptqpNJnbz3Bm1LoxGp\ny188UtrykkrnWP21Y4r3MnXtydkC1mqoaNIKzegQ6Eadq8GlJlAwnp7nwEkG02x/\n3IMaRJLaoIzi4OBPOU5P3lsqo430zyqznjv0vwOt8jL19zyv42SHvqeZo3uzjAtq\ntYUfW9wU3hzFf+S+TrJZ34WC+rlvul9TX0nXztJh3/NBG8ClOxIdZlTJO0b4N/xw\n48+5VCVppcSTv6Uf76oBlrCxXFJeCz/ExWnSvm3glU37st4L0g6VOwqGjk4nFtmJ\nVQIDAQAB\n-----END PUBLIC KEY-----"
     }
    },
-   "e02bc2a04a044c205468c7b82eb65ae407bbba5871420cef40173ffcd69cfc42": {
+   "da694f4001253ad65f8a721e54ba5553c76d8255dfa7af607041d96cfd9d186b": {
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
     ],
     "keytype": "rsa",
     "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAuak/XvM+FM5Z4oJvNIA8\nGfpN6UhLq8YaMDa8ihoTLGpfYW/jQ5Q88ftRYdImTxEFCjFNaHLzaUqLwCQY4znb\nX947XNV+C9lZJj0orbvxVCfg81pXsDMN8YSSq0vCxcCreZRiggaHRpTld+lLFT6D\ncUNoV02SfnrQB1uSo0dpGjrVD2KaN5Ja9CreJox0piUv7bvK2aRQI7X86zzroQic\n4ILMu3pSvfLPjxQbUavDwImiG2wT9omqIFPEAPsVIg9jvUhVM77kkayKHwudUZLS\nVxttLSCsE5fuSzLsBhwSeq11piWmNvKkEmtzpsTCTqSk850p2XThdepDvns7qfnR\nco8ny9FERt2HM70Ypw9WY93Go33OP7Sn82gnXKkCt/nsgEO4nGbGRNwkiRAqCN+J\n5xFAIeS6aGf2JbQHQJqUYzk6lxgYdCV3hgMniu1vBdyrORIQmKtXRQgq0k78sOIF\nczqqD7YWEOmQBTVA72Fbt/pHEnDAu82wVdxlZA5polrzAgMBAAE=\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsejVsDNsd0K37vVFgImI\nQRiX3l5Gr0rHZZLYzNVfbotxDzPwbyeI0gq+OcYqkWhCotkAh9+KnClV+ErLCxAh\nL1OviqDKkrtxhc/876uI8hnIgWOp7Zg3tVq6BbKfWlekBkB9V7OmpnC5xZS3wTaq\n8S+AJJYah8aknzPFly0mo+K4IOPsqBjnwC8PsS7ej3Ft4xwfZ0Qy1gd7HJWdAhYY\nttPy+ZFtYZt6o5ZhUJJvJb16LvY9EG3gbjQiOxe8wC0cbyHTlF1svKpgScjJl8N4\npG8OmY4BYw2jWEl/ciiZhkWNtCEZh4610K3BJgTzIXHn+wL1vj5fOURG5sREqyG0\nb2AZmLPM/ovIQt+uZiaE9/JnxF4A4YOS6vAnTfArR/y0KrtP8G3xGaond6l2bdRt\npxLk5l0C9JePcoUv9hiptDi4MRFoO7Yekkf7XZEcnbB+CJ0rf9Bbo2PZljqHzeUp\nbOc90rb4w2JlNtGdMNloP5Iv2WvoTYXe0HfS2GWhJ685AgMBAAE=\n-----END PUBLIC KEY-----"
     }
    },
-   "fd87389ed8dd5907fcb721eefd6e0f7cecde42632091d7b8aaf2298b93fad4a9": {
+   "f43446ab4ea786ead14f21c874eeae578db311ec566f4ac685e0deb6f0dd2e78": {
     "keyid_hash_algorithms": [
      "sha256",
      "sha512"
     ],
     "keytype": "rsa",
     "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtgHhviZEfHcpXnCZOFhC\nUlmtSXySASxE4BDjVmpyqircEKJPJtZuvpCP9zoAm4LjWiCL4VpuLtZxlUXyDfIC\n6VD3nGFPJal4tkOa2u0rdZh4icCg/9ftFVxa4uPkPqpAal/KuQK87Zf/oL2mDYWi\nSZheiksUpgOSnh0GKiGd+K9ThlhQ0bcHyRaTwaP2n2wFYyYqFwbC/zNxdYUZSE0d\n6tCfs/OJm4RrGxVQhfn++iBO+IIvXdCHG4GGOJLhKa62dcfp0smnGIiekB5myp6l\niTZWH08Rn01tdLcvT7aBeCI1M3/6H3zDlUly6M3M/kXaAaSQfDnOfheeXjD1yZ0l\nPwIDAQAB\n-----END PUBLIC KEY-----"
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAxkchfoKAjQ1Xp1b7GiDX\nCRW6umXCO0c9b8kIRVhnqeL8dENBt9cAWpsfzM1nHgftrIzAZwJEf6SY6+V/Mpgu\nDzhwZT/1CaSaLJ8Isyoo/oQX+0h38X0rQYfz9DphDAXnREdqynJf+3TJKlUqU0Y/\nFu6RR6kP2tQflAIMm3lJek3LbFQqfZZ+GhBQkiPKSIVU5+5kbktOsE9mR/e0vBfU\ncfOOANjxOawqkCwo+Ub4NP0W99sQtHUGkG9NY+tzFsQspjUv/3TMPdvlmzuKXp1e\nDLXLG0NV8qblOtzsyG0Kos+tkMED9/IXXBiMF+ZVYuEe+ETdhnCyOm24VO6EIPfw\n+naLJudJm/Pu1foE6T/sztWsPEboei7JlczywCPEGV5sdQlWxU20mQn8dzjr+BDQ\neJ+DObbeK4IAkkFtKp+wYJiEYrx3XaF0lg6COvNOQs3kAHP9GP8sazCoOdN7O4fu\nXu09SMldi+MH77izWUDkXKLf8msc2Yn4Fgm90MzCsqgZAgMBAAE=\n-----END PUBLIC KEY-----"
     }
    }
   },
   "roles": {
    "root": {
     "keyids": [
-     "fd87389ed8dd5907fcb721eefd6e0f7cecde42632091d7b8aaf2298b93fad4a9"
+     "70655b5073e3990bfd1fbee5d0804e3ceb53bf9a3db8c86ba8a7d48ec95ab553"
     ],
     "threshold": 1
    },
    "snapshot": {
     "keyids": [
-     "e02bc2a04a044c205468c7b82eb65ae407bbba5871420cef40173ffcd69cfc42"
+     "3913729a488ff643aec6a5ce0740bdb81dd62ae5ed7c23238a408be8827c65af"
     ],
     "threshold": 1
    },
    "targets": {
     "keyids": [
-     "5925212db59b261636a9196e1bf5cb5050fab2f722caa3f0c7384eacaebd9c4a"
+     "da694f4001253ad65f8a721e54ba5553c76d8255dfa7af607041d96cfd9d186b"
     ],
     "threshold": 1
    },
    "timestamp": {
     "keyids": [
-     "9c26d9728e49c4b050f6e4b54a099a60f7b36ae4cb1131e226c985e3f30533ba"
+     "f43446ab4ea786ead14f21c874eeae578db311ec566f4ac685e0deb6f0dd2e78"
     ],
     "threshold": 1
    }
