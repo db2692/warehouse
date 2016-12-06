@@ -32,6 +32,8 @@ USER_ID_INSECURE_COOKIE = "user_id__insecure"
 @view_config(
     route_name="accounts.profile",
     renderer="accounts/profile.html",
+    uses_session=True,
+    require_csrf=True,
     decorator=[
         origin_cache(
             1 * 24 * 60 * 60,                 # 1 day
