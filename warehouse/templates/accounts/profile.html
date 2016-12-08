@@ -39,19 +39,22 @@
      <center>
 	 {% if request.user.username != NONE %}
 	     <h2>Upload Project</h2>
-	     <!--<form method="POST" action="/upload/package" name="submit" enctype="multipart/form-data">
-      		<input type="file" name="fileField"><br /><br />
-		<input type="submit" name="submit" value="Submit">
-	     </form> -->
-	     <form tal:attributes="action app/url_path" method="POST" enctype="multipart/form-data">
-			<input type="hidden" name=":action" value="submit_pkg_info" />
-			<table class="form">
-				<tr><th>PKG-INFO file:</th>
-				<td><input size="40" type="file" name="pkginfo" /></td>
-				</tr>
-				<tr><td></td><td><input type="submit" value="Add Package Info" /></td></tr>
-			</table>
-		</form>
+	     <form action="/upload/package" method="POST" enctype="multipart/form-data">
+		<table class="form">
+			<input name="csrf_token" type="hidden" value="{{ request.session.get_csrf_token() }}">
+			<tr><th>Project Name:</th>
+			<td><input name="ProjectName" id="name" /></td></tr>
+			<tr><th>Version:</th>
+			<td><input name="Version" id="version" /></td></tr>
+			<tr><th>Summary:</th>
+			<td><input name="Summary" id="summary" /></td></tr>
+			<input name="Author" type="hidden" id="author" value="{{request.user.username}}"/>
+			<tr><th>Project File:</th>
+			<td><input type="file" name="pkginfo" id="pkginfo" /></td>
+			</tr>
+			<tr><td></td><td><input type="submit" value="Upload Package" /></td></tr>
+		</table>
+	    </form>
 	{% endif %}
 	</center>
       <h2>Projects</h2>
